@@ -9,19 +9,13 @@ import javax.persistence.Id;
 
 @Data
 @Entity
-public class MyMedia {
-
+public class Media {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private int id;
-
-    private List list;
-    private Type type;
-
+    private String list;//WATCHING,COMPLETED,ON_HOLD,DROPPED,PLAN_TO_WATCH
     private String title;
     private int episodesWatched;
     private int episodesTotal;
-    private int score;
     private String notes;
-
 }

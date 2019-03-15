@@ -2,15 +2,18 @@ spring:
   application:
     name: MyList
   datasource:
-    url: jdbc:h2:mem:test
-    username: sa
-    password: sa
-    platform: H2
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: mysecretpassword
+    platform: PostgreSQL
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: none
     properties.hibernate.temp.use_jdbc_metadata_defaults: false
     show-sql: true
+  flyway:
+    enabled: true
+    schemas: public
 
 server:
   port: 9081
@@ -18,9 +21,7 @@ server:
 ---
 
 spring:
-  profiles: dev
+  profiles: test
   datasource:
-    url: jdbc:postgresql://192.168.99.100:5432/postgres
-    username: postgres
-    password: start123
-    platform: POSTGRESQL
+    url: jdbc:h2:mem:test
+    platform: H2
