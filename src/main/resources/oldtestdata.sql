@@ -1,7 +1,6 @@
 INSERT INTO media (id,list,title,episodes_watched,episodes_total,notes) VALUES
 (101,'COMPLETED','The Walking Dead - Season 02 Special',4,4,'Cold Storage')
 ,(102,'COMPLETED','The Walking Dead - Season 03 Special',3,3,'The Oath')
-,(103,'WATCHING','The Walking Dead - Season 08 Special',3,6,'Red Machete')
 ,(104,'COMPLETED','Stranger Things - Season 01',8,8,'')
 ,(105,'COMPLETED','Stranger Things - Season 02',9,9,'')
 ,(106,'PLAN_TO_WATCH','Stranger Things - Season 03',0,8,'04.07.2019')
@@ -49,10 +48,10 @@ INSERT INTO media (id,list,title,episodes_watched,episodes_total,notes) VALUES
 ,(80,'COMPLETED','Primeval - Season 01',6,6,'')
 ,(81,'COMPLETED','Primeval - Season 02',7,7,'')
 ,(82,'COMPLETED','Primeval - Season 03',10,10,'')
+,(83,'COMPLETED','Primeval - Season 04',7,7,'')
 ;
 INSERT INTO media (id,list,title,episodes_watched,episodes_total,notes) VALUES
-(83,'COMPLETED','Primeval - Season 04',7,7,'')
-,(84,'COMPLETED','Primeval - Season 05',6,6,'')
+(84,'COMPLETED','Primeval - Season 05',6,6,'')
 ,(85,'COMPLETED','Westworld - Season 01',10,10,'')
 ,(86,'PLAN_TO_WATCH','Westworld - Season 02',0,10,'')
 ,(90,'COMPLETED','Merlin - Season 01',13,13,'')
@@ -94,6 +93,7 @@ INSERT INTO media (id,list,title,episodes_watched,episodes_total,notes) VALUES
 ,(89,'COMPLETED','Moonlight',16,16,'')
 ,(68,'COMPLETED','The Lost Room',3,3,'')
 ,(88,'PLAN_TO_WATCH','World Without End',0,8,'Die Tore der Welt')
+,(103,'COMPLETED','The Walking Dead - Season 08 Special',6,6,'Red Machete')
 ,(23,'COMPLETED','Game of Thrones - Season 03',10,10,'')
 ,(24,'COMPLETED','Game of Thrones - Season 04',10,10,'')
 ,(25,'COMPLETED','Game of Thrones - Season 05',10,10,'')
@@ -195,7 +195,6 @@ INSERT INTO media (id,list,title,episodes_watched,episodes_total,notes) VALUES
 ,(189,'COMPLETED','The Get Down',11,11,'')
 ,(190,'COMPLETED','Castlevania - Season 01',4,4,'')
 ,(191,'DROPPED','Castlevania - Season 02',0,8,'')
-,(192,'ON_HOLD','Adventure Time - Season 01',2,23,'')
 ,(193,'DROPPED','BoJack Horseman - Season 01',3,12,'')
 ,(194,'DROPPED','Designated Survivor - Season 01',6,21,'')
 ,(195,'COMPLETED','The Boondocks - Season 01',15,15,'')
@@ -203,4 +202,7 @@ INSERT INTO media (id,list,title,episodes_watched,episodes_total,notes) VALUES
 ,(197,'COMPLETED','The Boondocks - Season 03',15,15,'')
 ,(198,'PLAN_TO_WATCH','The Boondocks - Season 04',0,10,'')
 ,(199,'ON_HOLD','13 Reasons Why - Season 01',1,13,'')
+,(200,'COMPLETED','The Umbrella Academy - Season 01',10,10,'')
+,(201,'WATCHING','Russian Doll - Season 01',2,8,'')
+,(192,'DROPPED','Adventure Time - Season 01',2,23,'')
 ;
